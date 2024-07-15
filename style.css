@@ -1,0 +1,162 @@
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p {
+    color: black;
+}
+
+.mb {
+    margin-bottom: 4rem;
+}
+
+.heading-primary {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+    color: rgb(26, 80, 160);
+    margin-bottom: 1rem;
+}
+
+.heading-secondary {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+    color: rgb(26, 80, 160);
+    margin-bottom: 1rem;
+}
+
+.heading-tertiary {
+    font-size: 3rem;
+    color: rgb(26, 80, 160);
+    margin-bottom: .5rem;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+}
+
+.main-nav {
+    width: 100%;
+    background-color: rgb(89, 89, 89);
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav ul li a {
+    text-transform: capitalize;
+    padding-right: 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.hero {
+    height: calc(100vh - 10vh);
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(26, 80, 160);
+    padding: 0.5rem 1.5rem;
+    margin-top: 4rem;
+}
+
+/* service */
+.description {
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.card .icon img {
+    width: 7rem;
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+/* about */
+.about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.about img {
+    width: 100%;
+    height: 100%;
+}
+
+/* contact */
+.contact-form form {
+    width: 80%;
+}
+
+.contact-form .row {
+    width: 100%;
+    display: flex;
+}
+
+.input50 {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.imput100 {
+    width: 100;
+    margin: 0 10px;
+}
+
+.contact-form .row input, .contact-form .row textarea {
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgb(26, 80, 160);
+    padding: 10px;
+    outline: none;
+    margin: 10px 0;
+}
+
+.contact-form .row input[type="submit"] {
+    background-color: rgb(26, 80, 160);
+    color: aliceblue;
+    border: 0;
+    cursor: pointer;
+    
+}
