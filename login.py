@@ -6,7 +6,7 @@ conn = sqlite3.connect("user.db")
 cur = conn.cursor() #this creates a cursor object to interact with a databse
 cur.execute( """
 CREATE TABLE IF NOT EXISTS userdata(
-    id INTERGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL
 )
